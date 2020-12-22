@@ -7,8 +7,10 @@
     xmlns:xop="http://www.w3.org/2004/08/xop/include"
     xmlns:chan="http://schemas.microsoft.com/ws/2005/02/duplex"
     xmlns:wsa5="http://www.w3.org/2005/08/addressing"
+    xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2"
     xmlns:tt="http://www.onvif.org/ver10/schema"
-    xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl">
+    xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl"
+    xmlns:trt="http://www.onvif.org/ver10/media/wsdl">
  <SOAP-ENV:Header>
  </SOAP-ENV:Header>
  <SOAP-ENV:Body>
@@ -25,7 +27,7 @@
      <tt:Zoom>IDLE</tt:Zoom>
     </tt:MoveStatus>
     <tt:Error></tt:Error>
-    <tt:UtcTime>2020-12-21T09:42:35Z</tt:UtcTime>
+    <tt:UtcTime>2020-12-22T12:11:05Z</tt:UtcTime>
    </tptz:PTZStatus>
   </tptz:GetStatusResponse>
  </SOAP-ENV:Body>

@@ -83,8 +83,10 @@ void PTZBindingProxy::PTZBindingProxy_init(soap_mode imode, soap_mode omode)
         { "xop", "http://www.w3.org/2004/08/xop/include", NULL, NULL },
         { "chan", "http://schemas.microsoft.com/ws/2005/02/duplex", NULL, NULL },
         { "wsa5", "http://www.w3.org/2005/08/addressing", "http://schemas.xmlsoap.org/ws/2004/08/addressing", NULL },
+        { "wsnt", "http://docs.oasis-open.org/wsn/b-2", NULL, NULL },
         { "tt", "http://www.onvif.org/ver10/schema", NULL, NULL },
         { "tptz", "http://www.onvif.org/ver20/ptz/wsdl", NULL, NULL },
+        { "trt", "http://www.onvif.org/ver10/media/wsdl", NULL, NULL },
         { NULL, NULL, NULL, NULL}
     };
 	soap_set_namespaces(this->soap, namespaces);
